@@ -88,13 +88,6 @@
               <aspectratio scalediffuse="true" aligny="bottom">scale</aspectratio>
               <texture diffuse="thumbs/SquareDiffuse.png" fallback="DefaultMusic.png">$INFO[MusicPlayer.Cover]</texture>
             </control>
-<!--             <control type="image" description="MusicAlbum">
-              <posx>355</posx>
-              <posy>-9</posy>
-              <height>300</height>
-              <width>40</width>
-              <texture>img/NowPlayingArrow.png</texture>
-            </control> -->
           </control>
           <control type="group" description="Left Labels">
             <posx>450</posx>
