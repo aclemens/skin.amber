@@ -101,7 +101,7 @@
             <control type="label" description="Title label">
               <posx>0</posx>
               <posy>495</posy>
-              <width>900</width>
+              <width>1330</width>
               <scroll>true</scroll>
               <align>left</align>
               <font>MainLabelBigTitle</font>
@@ -113,7 +113,7 @@
             <control type="label" description="Artist">
               <posx>0</posx>
               <posy>585</posy>
-              <width>900</width>
+              <width>1330</width>
               <label>$INFO[MusicPlayer.Artist]</label>
               <scroll>true</scroll>
               <align>left</align>
@@ -123,7 +123,7 @@
             </control>
             <control type="label" description="Album">
               <posy>636</posy>
-              <width>900</width>
+              <width>1330</width>
               <label>$INFO[MusicPlayer.Album]</label>
               <align>left</align>
               <font>MainLabelBig</font>
@@ -133,7 +133,7 @@
             <control type="label" description="Track position">
               <posx>0</posx>
               <posy>702</posy>
-              <width>900</width>
+              <width>1330</width>
               <align>left</align>
               <textcolor>Grey</textcolor>
               <shadowcolor>Shadow</shadowcolor>
@@ -145,7 +145,7 @@
               <posx>0</posx>
               <posy>780</posy>
               <height>30</height>
-              <width>500</width>
+              <width>1330</width>
               <align>left</align>
               <font>Volume</font>
               <label>$INFO[MusicPlayer.TimeSpeed] . $INFO[MusicPlayer.Duration]</label>
