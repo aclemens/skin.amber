@@ -58,7 +58,7 @@
         <visible>[Player.ShowInfo | Window.IsActive(MusicOSD) | !Visualisation.Enabled] + ![Window.IsVisible(AddonSettings) | Window.IsVisible(SelectDialog) | Window.IsVisible(VisualisationPresetList)]</visible>
         <animation effect="fade" time="500">Visible</animation>
         <animation effect="fade" time="200">Hidden</animation>
-        <control type="group" description="Info panel LEFT">
+        <control type="group" description="Info panel">
           <animation condition="Window.IsActive(MusicOSD.xml)" effect="slide" start="0,0" end="0,-105" time="400">Conditional</animation>
           <posy>170</posy>
           <animation condition="!IntegerGreaterThan(Control.GetLabel(23),1)" reversible="false" effect="fade" start="0" end="100" time="800" easing="in">
