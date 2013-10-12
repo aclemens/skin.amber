@@ -142,7 +142,7 @@
               <width>1330</width>
               <align>left</align>
               <font>Volume</font>
-              <label>$INFO[MusicPlayer.TimeSpeed] . $INFO[MusicPlayer.Duration]</label>
+              <label>$INFO[MusicPlayer.TimeSpeed] / $INFO[MusicPlayer.Duration]</label>
               <textcolor>Grey2</textcolor>
             </control>
             <control type="group">
