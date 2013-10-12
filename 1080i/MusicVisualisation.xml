@@ -102,7 +102,7 @@
               <posx>0</posx>
               <posy>510</posy>
               <width>1330</width>
-              <scroll>true</scroll>
+              <scroll>false</scroll>
               <align>left</align>
               <font>MainLabelBigTitle</font>
               <textcolor>White2</textcolor>
@@ -115,7 +115,7 @@
               <posy>580</posy>
               <width>1330</width>
               <label>$INFO[MusicPlayer.Artist]</label>
-              <scroll>true</scroll>
+              <scroll>false</scroll>
               <align>left</align>
               <font>MainLabelBig</font>
               <textcolor>Red</textcolor>
@@ -129,6 +129,7 @@
               <font>MainLabelBig</font>
               <textcolor>White</textcolor>
               <shadowcolor>ShadowDark</shadowcolor>
+              <scroll>false</scroll>
             </control>
             <control type="label" description="Track position">
               <posx>0</posx>
