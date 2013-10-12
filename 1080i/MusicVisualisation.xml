@@ -61,13 +61,18 @@
         <control type="group" description="Info panel">
           <animation condition="Window.IsActive(MusicOSD.xml)" effect="slide" start="0,0" end="0,-105" time="400">Conditional</animation>
           <posy>170</posy>
-          <animation condition="!IntegerGreaterThan(Control.GetLabel(23),1)" reversible="false" effect="fade" start="0" end="100" time="800" easing="in">
+          <animation condition="!IntegerGreaterThan(Control.GetLabel(23),1)" reversible="false" effect="fade" start="0" end="100" time="800">
             Conditional
           </animation>
-          <animation condition="StringCompare(Control.GetLabel(23),100)" reversible="false" effect="fade" start="100" end="0" easing="out" time="300">
+          <animation condition="!Control.IsVisible(666)" reversible="false" effect="slide" start="0,0" end="-400,0" time="300">
             Conditional
           </animation>
-          <control type="group" description="Music Cover group">
+          <animation condition="Control.IsVisible(666)" reversible="false" effect="slide" start="-400,0" end="0,0" time="300">
+            Conditional
+          </animation>
+          <control type="group" id="666" description="Music Cover group">
+            <visible>!IntegerGreaterThan(Control.GetLabel(23),5) | IntegerGreaterThan(Control.GetLabel(23),95)</visible>
+            <animation reversible="false" effect="fade" time="300">VisibleChange</animation>
             <posy>510</posy>
             <posx>70</posx>
             <control type="image" description="MusicAlbum">
@@ -199,7 +204,7 @@
     <control type="group">
       <posy>1020</posy>
       <visible>IntegerGreaterThan(Control.GetLabel(23),95) | !IntegerGreaterThan(Control.GetLabel(23),5)</visible>
-      <animation effect="fade" time="800">VisibleChange</animation>
+      <animation effect="fade" time="800" delay="300">VisibleChange</animation>
       <animation condition="Window.IsActive(MusicOSD.xml)" effect="slide" start="0,0" end="0,-105" time="400">Conditional</animation>
       <control type="label" description="Previous">
         <posx>30</posx>
