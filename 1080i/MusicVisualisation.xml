@@ -68,13 +68,13 @@
             Conditional
           </animation>
           <control type="group" description="Music Cover group">
-            <posy>375</posy>
-            <posx>150</posx>
+            <posy>475</posy>
+            <posx>70</posx>
             <control type="image" description="MusicAlbum">
               <posx>0</posx>
               <posy>0</posy>
-              <height>450</height>
-              <width>450</width>
+              <height>350</height>
+              <width>350</width>
               <fadetime>300</fadetime>
               <bordersize>-24</bordersize>
               <texture>thumbs/SquareBG_NF.png</texture>
@@ -82,22 +82,22 @@
             <control type="image" description="MusicAlbum">
               <posx>0</posx>
               <posy>0</posy>
-              <height>450</height>
-              <width>450</width>
+              <height>350</height>
+              <width>350</width>
               <fadetime>300</fadetime>
               <aspectratio scalediffuse="true" aligny="bottom">scale</aspectratio>
               <texture diffuse="thumbs/SquareDiffuse.png" fallback="DefaultMusic.png">$INFO[MusicPlayer.Cover]</texture>
             </control>
-            <control type="image" description="MusicAlbum">
-              <posx>452</posx>
+<!--             <control type="image" description="MusicAlbum">
+              <posx>355</posx>
               <posy>-9</posy>
               <height>300</height>
               <width>40</width>
               <texture>img/NowPlayingArrow.png</texture>
-            </control>
+            </control> -->
           </control>
           <control type="group" description="Left Labels">
-            <posx>654</posx>
+            <posx>504</posx>
             <control type="label" description="Title label">
               <posx>0</posx>
               <posy>495</posy>
