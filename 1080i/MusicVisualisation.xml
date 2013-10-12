@@ -44,7 +44,7 @@
       </control>
       <control type="image" description="Info BG">
         <visible>Skin.HasSetting(MusicPlayingFanart)</visible>
-		<posx>0</posx>
+        <posx>0</posx>
         <posy>270</posy>
         <width>1920</width>
         <height>810</height>
