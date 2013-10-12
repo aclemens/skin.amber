@@ -128,7 +128,7 @@
               <scroll>true</scroll>
               <align>left</align>
               <font>MainLabelBig</font>
-              <textcolor>White</textcolor>
+              <textcolor>Red</textcolor>
               <shadowcolor>ShadowDark</shadowcolor>
             </control>
             <control type="label" description="Album">
@@ -240,7 +240,7 @@
               <scroll>true</scroll>
               <align>right</align>
               <font>MainLabelBig</font>
-              <textcolor>White</textcolor>
+              <textcolor>Red</textcolor>
               <shadowcolor>ShadowDark</shadowcolor>
             </control>
             <control type="label" description="Album">

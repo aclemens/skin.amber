@@ -94,13 +94,13 @@
     <font>
       <name>MainLabelBig</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>39</size>
+      <size>60</size>
       <style>bold</style>
     </font>
     <font>
       <name>MainLabelBigTitle</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>44</size>
+      <size>102</size>
       <style>bold</style>
     </font>
     <font>
@@ -275,13 +275,13 @@
     <font>
       <name>MainLabelBig</name>
       <filename>Arial.ttf</filename>
-      <size>39</size>
+      <size>60</size>
       <style>bold</style>
     </font>
     <font>
       <name>MainLabelBigTitle</name>
       <filename>Arial.ttf</filename>
-      <size>44</size>
+      <size>102</size>
       <style>bold</style>
     </font>
     <font>
