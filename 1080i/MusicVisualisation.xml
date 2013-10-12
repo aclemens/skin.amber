@@ -60,7 +60,7 @@
         <animation effect="fade" time="200">Hidden</animation>
         <control type="group" description="Info panel LEFT">
           <animation condition="Window.IsActive(MusicOSD.xml)" effect="slide" start="0,0" end="0,-105" time="400">Conditional</animation>
-          <posy>165</posy>
+          <posy>170</posy>
           <animation condition="!IntegerGreaterThan(Control.GetLabel(23),1)" reversible="false" effect="fade" start="0" end="100" time="800" easing="in">
             Conditional
           </animation>
@@ -68,13 +68,13 @@
             Conditional
           </animation>
           <control type="group" description="Music Cover group">
-            <posy>475</posy>
+            <posy>510</posy>
             <posx>70</posx>
             <control type="image" description="MusicAlbum">
               <posx>0</posx>
               <posy>0</posy>
-              <height>350</height>
-              <width>350</width>
+              <height>300</height>
+              <width>300</width>
               <fadetime>300</fadetime>
               <bordersize>-24</bordersize>
               <texture>thumbs/SquareBG_NF.png</texture>
@@ -82,8 +82,8 @@
             <control type="image" description="MusicAlbum">
               <posx>0</posx>
               <posy>0</posy>
-              <height>350</height>
-              <width>350</width>
+              <height>300</height>
+              <width>300</width>
               <fadetime>300</fadetime>
               <aspectratio scalediffuse="true" aligny="bottom">scale</aspectratio>
               <texture diffuse="thumbs/SquareDiffuse.png" fallback="DefaultMusic.png">$INFO[MusicPlayer.Cover]</texture>
@@ -97,10 +97,10 @@
             </control> -->
           </control>
           <control type="group" description="Left Labels">
-            <posx>504</posx>
+            <posx>450</posx>
             <control type="label" description="Title label">
               <posx>0</posx>
-              <posy>495</posy>
+              <posy>510</posy>
               <width>1330</width>
               <scroll>true</scroll>
               <align>left</align>
@@ -112,7 +112,7 @@
             </control>
             <control type="label" description="Artist">
               <posx>0</posx>
-              <posy>585</posy>
+              <posy>580</posy>
               <width>1330</width>
               <label>$INFO[MusicPlayer.Artist]</label>
               <scroll>true</scroll>
@@ -132,7 +132,7 @@
             </control>
             <control type="label" description="Track position">
               <posx>0</posx>
-              <posy>702</posy>
+              <posy>720</posy>
               <width>1330</width>
               <align>left</align>
               <textcolor>Grey</textcolor>
