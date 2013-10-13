@@ -124,9 +124,15 @@
               <shadowcolor>Shadow</shadowcolor>
               <scroll>false</scroll>
             </control>
+            <control type="image">
+              <posx>0</posx>
+              <posy>700</posy>
+              <colordiffuse>Red</colordiffuse>
+              <texture>$INFO[Player.StarRating]</texture>
+            </control>
             <control type="label" description="Track position">
               <posx>0</posx>
-              <posy>720</posy>
+              <posy>725</posy>
               <width>1430</width>
               <align>left</align>
               <textcolor>Grey</textcolor>
