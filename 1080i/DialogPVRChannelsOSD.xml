@@ -20,7 +20,7 @@
         <posy>170</posy>
         <width>630</width>
         <height>36</height>
-        <textcolor>Orange</textcolor>
+        <textcolor>Red</textcolor>
         <font>InfoTitle</font>
         <align>center</align>
         <label>$LOCALIZE[19019]</label>

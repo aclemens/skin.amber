@@ -171,7 +171,7 @@
           <height>27</height>
           <aspectratio>keep</aspectratio>
           <texture>img/NowPlayingFO.png</texture>
-          <colordiffuse>Orange</colordiffuse>
+          <colordiffuse>Red</colordiffuse>
         </control>
         <!--<control type="image" description="Camera">
           <visible>Player.HasVideo</visible>
@@ -181,7 +181,7 @@
           <height>27</height>
           <aspectratio>keep</aspectratio>
           <texture>img/NowPlayingVideoFO.png</texture>
-          <colordiffuse>Orange</colordiffuse>
+          <colordiffuse>Red</colordiffuse>
         </control>-->
         <control type="label">
           <visible>Player.HasAudio</visible>
@@ -191,7 +191,7 @@
           <width>1200</width>
           <height>35</height>
           <font>Details</font>
-          <label>$INFO[MusicPlayer.Artist,,[COLOR=Orange]  •  [/COLOR]]$INFO[MusicPlayer.Title,,[COLOR=Orange]  •  [/COLOR]][COLOR=Grey3]$INFO[MusicPlayer.TimeSpeed]$INFO[MusicPlayer.Duration, - ][/COLOR]</label>
+          <label>$INFO[MusicPlayer.Artist,,[COLOR=Red]  •  [/COLOR]]$INFO[MusicPlayer.Title,,[COLOR=Red]  •  [/COLOR]][COLOR=Grey3]$INFO[MusicPlayer.TimeSpeed]$INFO[MusicPlayer.Duration, - ][/COLOR]</label>
         </control>
         <!--<control type="label">
           <visible>Player.HasVideo</visible>
@@ -201,7 +201,7 @@
           <width>1200</width>
           <height>35</height>
           <font>Details</font>
-          <label>$INFO[VideoPlayer.TVShowTitle,,[COLOR=Orange]  •  [/COLOR]]$INFO[VideoPlayer.ChannelName,,[COLOR=Orange]  •  [/COLOR]]$INFO[VideoPlayer.Artist,,[COLOR=Orange]  •  [/COLOR]]$INFO[VideoPlayer.Title,,[COLOR=Orange]  •  [/COLOR]][COLOR=Grey3]$INFO[VideoPlayer.Time]$INFO[VideoPlayer.Duration, - ][/COLOR]</label>
+          <label>$INFO[VideoPlayer.TVShowTitle,,[COLOR=Red]  •  [/COLOR]]$INFO[VideoPlayer.ChannelName,,[COLOR=Red]  •  [/COLOR]]$INFO[VideoPlayer.Artist,,[COLOR=Red]  •  [/COLOR]]$INFO[VideoPlayer.Title,,[COLOR=Red]  •  [/COLOR]][COLOR=Grey3]$INFO[VideoPlayer.Time]$INFO[VideoPlayer.Duration, - ][/COLOR]</label>
         </control>-->
       </control>
       <control type="label">
@@ -279,7 +279,7 @@
         <width>100</width>
         <font>ListDetails</font>
         <align>center</align>
-        <textcolor>Orange</textcolor>
+        <textcolor>Red</textcolor>
         <label>$INFO[ListItem.Property(UnWatchedEpisodes)]</label>
       </control>
     </control>
@@ -390,7 +390,7 @@
     <scrolltime>200</scrolltime>
     <orientation>vertical</orientation>
     <control type="label" id="9140">
-      <textcolor>Orange</textcolor>
+      <textcolor>Red</textcolor>
       <textoffsetx>10</textoffsetx>
       <align>left</align>
       <include>9000ViewButtons</include>
@@ -590,14 +590,14 @@
     </control>
     <control type="label" id="9180" description="Spacer">
       <height>36</height>
-      <textcolor>Orange</textcolor>
+      <textcolor>Red</textcolor>
       <align>left</align>
       <textoffsetx>10</textoffsetx>
       <include>9000ViewButtons</include>
       <label></label>
     </control>
     <control type="label" id="9181">
-      <textcolor>Orange</textcolor>
+      <textcolor>Red</textcolor>
       <align>left</align>
       <textoffsetx>10</textoffsetx>
       <include>9000ViewButtons</include>
@@ -612,7 +612,7 @@
     <width>87</width>
     <height>87</height>
     <font>Keyboard</font>
-    <focusedcolor>Orange</focusedcolor>
+    <focusedcolor>Red</focusedcolor>
     <textoffsety>-3</textoffsety>
     <texturefocus border="16,0,16,0">common/KeyButtonFO.png</texturefocus>
     <texturenofocus border="16,0,16,0">common/KeyButtonNF.png</texturenofocus>
@@ -895,25 +895,25 @@
         <item id="1" description="Channels">
           <visible>!Skin.HasSetting(Channels.Hide)</visible>
           <label>$LOCALIZE[31975]</label>
-          <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
+          <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
           <onclick>Skin.ToggleSetting(Channels.Hide)</onclick>
         </item>
         <item id="1" description="Channels">
           <visible>Skin.HasSetting(Channels.Hide)</visible>
           <label>$LOCALIZE[31975]</label>
-          <label2>[COLOR=Orange]$LOCALIZE[1223][/COLOR]</label2>
+          <label2>[COLOR=Red]$LOCALIZE[1223][/COLOR]</label2>
           <onclick>Skin.ToggleSetting(Channels.Hide)</onclick>
         </item>
         <item id="2" description="Shared">
           <visible>!Skin.HasSetting(Hide.Shared)</visible>
           <label>$LOCALIZE[31006]</label>
-          <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
+          <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
           <onclick>Skin.ToggleSetting(Hide.Shared)</onclick>
         </item>
         <item id="2" description="Channels">
           <visible>Skin.HasSetting(Hide.Shared)</visible>
           <label>$LOCALIZE[31006]</label>
-          <label2>[COLOR=Orange]$LOCALIZE[1223][/COLOR]</label2>
+          <label2>[COLOR=Red]$LOCALIZE[1223][/COLOR]</label2>
           <onclick>Skin.ToggleSetting(Hide.Shared)</onclick>
         </item>
         <item id="10" description="PleXBMC Settings">
@@ -1316,7 +1316,7 @@
         <visible>Control.HasFocus(412)</visible>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Label_Commons</include>
 		<include>RecentlyAdded_Label</include>
-        <label>$INFO[Container(412).ListItem.Label2,,[COLOR=Orange]  •  [/COLOR]]$INFO[Container(412).ListItem.Label]</label>
+        <label>$INFO[Container(412).ListItem.Label2,,[COLOR=Red]  •  [/COLOR]]$INFO[Container(412).ListItem.Label]</label>
       </control>
       <control type="fixedlist" id="412" description="TV Shows PleXBMC">
         <visible>!IsEmpty(Window(Home).Property(Plexbmc.LatestEpisode.1.Path))</visible>

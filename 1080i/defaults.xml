@@ -9,7 +9,7 @@
     <textcolor>Grey2</textcolor>
     <shadowcolor>ShadowDark</shadowcolor>
     <focusedcolor>White2</focusedcolor>
-    <selectedcolor>Orange</selectedcolor>
+    <selectedcolor>Red</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <scroll>true</scroll>
     <scrollspeed>50</scrollspeed>
@@ -26,7 +26,7 @@
     <textcolor>White</textcolor>
     <shadowcolor>ShadowDark</shadowcolor>
     <focusedcolor>White2</focusedcolor>
-    <selectedcolor>Orange</selectedcolor>
+    <selectedcolor>Red</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <scrollout>false</scrollout>
     <pauseatend>3000</pauseatend>
@@ -38,7 +38,7 @@
     <textcolor>White</textcolor>
     <shadowcolor>ShadowDark</shadowcolor>
     <focusedcolor>White2</focusedcolor>
-    <selectedcolor>Orange</selectedcolor>
+    <selectedcolor>Red</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <pagecontrol>61</pagecontrol>
     <pulseonselect>false</pulseonselect>
@@ -61,7 +61,7 @@
     <textcolor>White</textcolor>
     <shadowcolor>ShadowDark</shadowcolor>
     <focusedcolor>White2</focusedcolor>
-    <selectedcolor>Orange</selectedcolor>
+    <selectedcolor>Red</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <texturefocus border="2">buttons/ButtonFO.png</texturefocus>
     <texturenofocus border="3">buttons/ButtonNF.png</texturenofocus>
@@ -79,7 +79,7 @@
     <textcolor>White</textcolor>
     <shadowcolor>ShadowDark</shadowcolor>
     <focusedcolor>White2</focusedcolor>
-    <selectedcolor>Orange</selectedcolor>
+    <selectedcolor>Red</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <texturefocus border="2">buttons/ButtonFO.png</texturefocus>
     <texturenofocus border="3">buttons/ButtonNF.png</texturenofocus>
@@ -97,7 +97,7 @@
     <shadowcolor>ShadowDark</shadowcolor>
     <focusedcolor>White2</focusedcolor>
     <selectedcolor>White2</selectedcolor>
-    <altselectedcolor>Orange</altselectedcolor>
+    <altselectedcolor>Red</altselectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <texturefocus border="2">buttons/ButtonFO.png</texturefocus>
     <texturenofocus border="3">buttons/ButtonNF.png</texturenofocus>
@@ -115,7 +115,7 @@
     <textcolor>White</textcolor>
     <shadowcolor>ShadowDark</shadowcolor>
     <focusedcolor>White2</focusedcolor>
-    <selectedcolor>Orange</selectedcolor>
+    <selectedcolor>Red</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <radiowidth>80</radiowidth>
     <radioheight>60</radioheight>
@@ -146,7 +146,7 @@
     <textcolor>White</textcolor>
     <shadowcolor>ShadowDark</shadowcolor>
     <focusedcolor>White2</focusedcolor>
-    <selectedcolor>Orange</selectedcolor>
+    <selectedcolor>Red</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <textoffsetx>20</textoffsetx>
     <align>left</align>
@@ -175,7 +175,7 @@
     <textcolor>White</textcolor>
     <shadowcolor>ShadowDark</shadowcolor>
     <focusedcolor>White2</focusedcolor>
-    <selectedcolor>Orange</selectedcolor>
+    <selectedcolor>Red</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <textoffsetx>20</textoffsetx>
     <align>left</align>
@@ -210,7 +210,7 @@
     <textcolor>White</textcolor>
     <shadowcolor>ShadowDark</shadowcolor>
     <focusedcolor>White2</focusedcolor>
-    <selectedcolor>Orange</selectedcolor>
+    <selectedcolor>Red</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <textoffsetx>20</textoffsetx>
   </default>

@@ -6,7 +6,7 @@
     <posy>1040</posy>
     <height>45</height>
     <width>400</width>
-	  <textcolor>Orange</textcolor>
+	  <textcolor>Red</textcolor>
     <font>ListDetails</font>
   </include>
   <include name="RA_Label_H">

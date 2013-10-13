@@ -26,7 +26,7 @@
         <label>$LOCALIZE[13008]</label>
         <align>center</align>
         <aligny>center</aligny>
-        <textcolor>Orange</textcolor>
+        <textcolor>Red</textcolor>
       </control>
       <control type="group">
         <posx>442</posx>

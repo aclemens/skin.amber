@@ -52,7 +52,7 @@
         <posy>90</posy>
         <width>1170</width>
         <height>32</height>
-        <textcolor>Orange</textcolor>
+        <textcolor>Red</textcolor>
         <font>font13</font>
         <align>left</align>
         <label>RESUMABLE: $INFO[ListItem.property(IsResumable)]  PLEXBMC OVERLAY: $INFO[ListItem.property(overlay)]</label>

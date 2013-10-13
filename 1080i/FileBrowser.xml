@@ -21,7 +21,7 @@
         <posx>120</posx>
         <posy>90</posy>
         <width>1200</width>
-        <textcolor>Orange</textcolor>
+        <textcolor>Red</textcolor>
       </control>
       <control type="group">
         <control type="group">

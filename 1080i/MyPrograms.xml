@@ -44,7 +44,7 @@
         <width>630</width>
         <height>50</height>
         <aligny>bottom</aligny>
-        <textcolor>Orange</textcolor>
+        <textcolor>Red</textcolor>
         <font>InfoTitle</font>
         <wrapmultiline>true</wrapmultiline>
         <label>$INFO[ListItem.Label]</label>
