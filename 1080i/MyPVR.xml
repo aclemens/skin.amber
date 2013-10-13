@@ -58,7 +58,7 @@
           <posy>120</posy>
           <width>660</width>
           <font>InfoTitle</font>
-          <textcolor>Orange</textcolor>
+          <textcolor>Red</textcolor>
           <aligny>center</aligny>
           <height>60</height>
           <wrapmultiline>true</wrapmultiline>
@@ -107,7 +107,7 @@
           <posy>120</posy>
           <width>660</width>
           <font>InfoTitle</font>
-          <textcolor>Orange</textcolor>
+          <textcolor>Red</textcolor>
           <aligny>center</aligny>
           <height>60</height>
           <wrapmultiline>true</wrapmultiline>
@@ -149,7 +149,7 @@
           <posy>-12</posy>
           <width>660</width>
           <font>InfoTitle</font>
-          <textcolor>Orange</textcolor>
+          <textcolor>Red</textcolor>
           <aligny>center</aligny>
           <height>60</height>
           <wrapmultiline>true</wrapmultiline>
@@ -199,7 +199,7 @@
         <scrolltime>200</scrolltime>
         <orientation>vertical</orientation>
         <control type="label" id="9149">
-          <textcolor>Orange</textcolor>
+          <textcolor>Red</textcolor>
           <textoffsetx>10</textoffsetx>
           <align>left</align>
           <include>9000ViewButtons</include>

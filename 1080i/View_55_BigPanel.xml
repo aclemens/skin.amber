@@ -271,7 +271,7 @@
             <height>30</height>
             <align>center</align>
             <font>ListDetails</font>
-            <textcolor>Orange</textcolor>
+            <textcolor>Red</textcolor>
             <label>$INFO[ListItem.Label]</label>
           </control>
         </focusedlayout>

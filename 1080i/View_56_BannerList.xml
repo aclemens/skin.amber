@@ -42,7 +42,7 @@
               <width>100</width>
               <font>ListDetails</font>
               <align>center</align>
-              <textcolor>Orange</textcolor>
+              <textcolor>Red</textcolor>
               <label>$INFO[ListItem.Property(UnWatchedEpisodes)]</label>
             </control>
           </control>
@@ -81,7 +81,7 @@
               <width>100</width>
               <font>ListDetails</font>
               <align>center</align>
-              <textcolor>Orange</textcolor>
+              <textcolor>Red</textcolor>
               <label>$INFO[ListItem.Property(UnWatchedEpisodes)]</label>
             </control>
           </control>

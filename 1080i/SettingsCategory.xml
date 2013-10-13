@@ -28,7 +28,7 @@
         <height>72</height>
         <align>center</align>
         <font>InfoTitle</font>
-        <textcolor>Orange</textcolor>
+        <textcolor>Red</textcolor>
       </control>
       <control type="grouplist" id="3" description="Left - Button Area">
         <posx>66</posx>
@@ -44,7 +44,7 @@
       </control>
       <control type="button" id="10" description="Category Button">
         <textoffsetx>10</textoffsetx>
-        <focusedcolor>Orange</focusedcolor>
+        <focusedcolor>Red</focusedcolor>
       </control>
       <control type="grouplist" id="5" description="Right - Control Area">
         <posx>390</posx>

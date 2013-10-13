@@ -20,7 +20,7 @@
         <width>741</width>
         <height>40</height>
         <align>center</align>
-        <textcolor>Orange</textcolor>
+        <textcolor>Red</textcolor>
       </control>
       <control type="label" id="1001" description="Profile Directory">
         <posx>0</posx>
