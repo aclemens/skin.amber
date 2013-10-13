@@ -73,7 +73,7 @@
           <control type="group" description="Music Cover group">
            <animation reversible="false" effect="fade" time="300">VisibleChange</animation>
            <posy>510</posy>
-           <posx>70</posx>
+           <posx>45</posx>
            <control type="image" description="MusicAlbum">
             <posx>0</posx>
             <posy>0</posy>
@@ -94,11 +94,11 @@
           </control>
         </control>
         <control type="group" description="Left Labels">
-          <posx>430</posx>
+          <posx>390</posx>
           <control type="label" description="Title label">
             <posx>0</posx>
               <posy>505</posy>
-            <width>1430</width>
+            <width>1480</width>
             <scroll>true</scroll>
             <align>left</align>
             <font>MainLabelBigTitle</font>
@@ -110,7 +110,7 @@
           <control type="label" description="Artist">
             <posx>0</posx>
             <posy>590</posy>
-            <width>1430</width>
+            <width>1480</width>
             <label>$INFO[MusicPlayer.Artist]</label>
             <scroll>true</scroll>
             <align>left</align>
@@ -120,7 +120,7 @@
           </control>
           <control type="label" description="Album">
             <posy>640</posy>
-            <width>1430</width>
+            <width>1480</width>
             <label>$INFO[MusicPlayer.Album][COLOR=Grey]$INFO[MusicPlayer.Year, [,]][/COLOR]</label>
             <align>left</align>
             <font>MainLabelBig</font>
@@ -137,7 +137,7 @@
           <control type="label" description="Track position">
             <posx>0</posx>
               <posy>735</posy>
-            <width>1430</width>
+            <width>1480</width>
             <align>left</align>
             <textcolor>Grey</textcolor>
             <shadowcolor>Shadow</shadowcolor>
@@ -149,7 +149,7 @@
             <posx>0</posx>
               <posy>790</posy>
             <height>30</height>
-            <width>1430</width>
+            <width>1480</width>
             <align>left</align>
             <font>Volume</font>
             <label>$INFO[MusicPlayer.TimeSpeed] / $INFO[MusicPlayer.Duration]</label>
@@ -212,7 +212,7 @@
     <animation effect="fade" time="800" delay="300">VisibleChange</animation>
     <animation condition="Window.IsActive(MusicOSD.xml)" effect="slide" start="0,0" end="0,-105" time="400">Conditional</animation>
     <control type="label" description="Previous">
-      <posx>30</posx>
+      <posx>15</posx>
       <height>36</height>
       <width>750</width>
       <align>left</align>
@@ -227,7 +227,7 @@
       <shadowcolor>Black</shadowcolor>
     </control>
     <control type="label" description="Next">
-      <posx>1890</posx>
+      <posx>1900</posx>
       <height>36</height>
       <width>750</width>
       <align>right</align>
