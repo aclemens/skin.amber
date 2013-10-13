@@ -117,7 +117,7 @@
             <control type="label" description="Album">
               <posy>636</posy>
               <width>1430</width>
-              <label>$INFO[MusicPlayer.Album]</label>
+              <label>$INFO[MusicPlayer.Album][COLOR=Red]$INFO[MusicPlayer.Year, [,]][/COLOR]</label>
               <align>left</align>
               <font>MainLabelBig</font>
               <textcolor>White</textcolor>
