@@ -22,7 +22,7 @@
         <imagepath background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
         <aspectratio aligny="top">scale</aspectratio>
         <timeperimage>14000</timeperimage>
-        <fadetime>10000</fadetime>
+        <fadetime>3000</fadetime>
         <randomize>true</randomize>
         <animation effect="fade" start="0" end="70" time="300">Visible</animation>
         <animation effect="fade" start="70" end="0" time="200">Hidden</animation>
@@ -97,7 +97,7 @@
           <posx>430</posx>
           <control type="label" description="Title label">
             <posx>0</posx>
-            <posy>510</posy>
+              <posy>505</posy>
             <width>1430</width>
             <scroll>true</scroll>
             <align>left</align>
@@ -130,13 +130,13 @@
           </control>
           <control type="image">
             <posx>0</posx>
-            <posy>700</posy>
+              <posy>710</posy>
             <colordiffuse>Red</colordiffuse>
             <texture>$INFO[Player.StarRating]</texture>
           </control>
           <control type="label" description="Track position">
             <posx>0</posx>
-            <posy>725</posy>
+              <posy>735</posy>
             <width>1430</width>
             <align>left</align>
             <textcolor>Grey</textcolor>
@@ -147,7 +147,7 @@
           </control>
           <control type="label">
             <posx>0</posx>
-            <posy>780</posy>
+              <posy>790</posy>
             <height>30</height>
             <width>1430</width>
             <align>left</align>
