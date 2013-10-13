@@ -22,7 +22,7 @@
         <imagepath background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
         <aspectratio aligny="top">scale</aspectratio>
         <timeperimage>14000</timeperimage>
-        <fadetime>10000</fadetime>
+        <fadetime>3000</fadetime>
         <randomize>true</randomize>
         <animation effect="fade" start="0" end="70" time="300">Visible</animation>
         <animation effect="fade" start="70" end="0" time="200">Hidden</animation>
