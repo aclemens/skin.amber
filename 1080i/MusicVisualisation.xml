@@ -90,12 +90,12 @@
             </control>
           </control>
           <control type="group" description="Left Labels">
-            <posx>450</posx>
+            <posx>430</posx>
             <control type="label" description="Title label">
               <posx>0</posx>
               <posy>510</posy>
               <width>1430</width>
-              <scroll>false</scroll>
+              <scroll>true</scroll>
               <align>left</align>
               <font>MainLabelBigTitle</font>
               <textcolor>White2</textcolor>
@@ -108,7 +108,7 @@
               <posy>590</posy>
               <width>1430</width>
               <label>$INFO[MusicPlayer.Artist]</label>
-              <scroll>false</scroll>
+              <scroll>true</scroll>
               <align>left</align>
               <font>MainLabelBig</font>
               <textcolor>Red</textcolor>
@@ -122,7 +122,7 @@
               <font>MainLabelBig</font>
               <textcolor>White</textcolor>
               <shadowcolor>Shadow</shadowcolor>
-              <scroll>false</scroll>
+              <scroll>true</scroll>
             </control>
             <control type="image">
               <posx>0</posx>
