@@ -95,12 +95,12 @@
             </control>
           </control>
           <control type="group" description="Left Labels">
-            <posx>450</posx>
+            <posx>430</posx>
             <control type="label" description="Title label">
               <posx>0</posx>
               <posy>510</posy>
               <width>1430</width>
-              <scroll>false</scroll>
+              <scroll>true</scroll>
               <align>left</align>
               <font>MainLabelBigTitle</font>
               <textcolor>White2</textcolor>
@@ -113,7 +113,7 @@
               <posy>590</posy>
               <width>1430</width>
               <label>$INFO[MusicPlayer.Artist]</label>
-              <scroll>false</scroll>
+              <scroll>true</scroll>
               <align>left</align>
               <font>MainLabelBig</font>
               <textcolor>Red</textcolor>
@@ -122,16 +122,22 @@
             <control type="label" description="Album">
               <posy>640</posy>
               <width>1430</width>
-              <label>$INFO[MusicPlayer.Album][COLOR=Red]$INFO[MusicPlayer.Year, [,]][/COLOR]</label>
+              <label>$INFO[MusicPlayer.Album][COLOR=Grey]$INFO[MusicPlayer.Year, [,]][/COLOR]</label>
               <align>left</align>
               <font>MainLabelBig</font>
               <textcolor>White</textcolor>
               <shadowcolor>Shadow</shadowcolor>
-              <scroll>false</scroll>
+              <scroll>true</scroll>
+            </control>
+            <control type="image">
+              <posx>0</posx>
+              <posy>700</posy>
+              <colordiffuse>Red</colordiffuse>
+              <texture>$INFO[Player.StarRating]</texture>
             </control>
             <control type="label" description="Track position">
               <posx>0</posx>
-              <posy>720</posy>
+              <posy>725</posy>
               <width>1430</width>
               <align>left</align>
               <textcolor>Grey</textcolor>
