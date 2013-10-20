@@ -115,7 +115,7 @@
             <scroll>true</scroll>
             <align>left</align>
             <font>MainLabelBig</font>
-            <textcolor>Red</textcolor>
+            <textcolor>Orange</textcolor>
             <shadowcolor>Shadow</shadowcolor>
           </control>
           <control type="label" description="Album">
@@ -131,7 +131,7 @@
           <control type="image">
             <posx>0</posx>
               <posy>710</posy>
-            <colordiffuse>Red</colordiffuse>
+            <colordiffuse>Orange</colordiffuse>
             <texture>$INFO[Player.StarRating]</texture>
           </control>
           <control type="label" description="Track position">
@@ -165,7 +165,7 @@
               <align>left</align>
               <label>$INFO[Control.GetLabel(23)]</label>
               <font>Details</font>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <visible>Skin.HasSetting(DebugInfo)</visible>
             </control>
           </control>
@@ -220,7 +220,7 @@
       <scrollout>false</scrollout>
       <scrollspeed>200</scrollspeed>
       <pauseatend>5000</pauseatend>
-      <label>$INFO[MusicPlayer.offset(-1).Title,[COLOR=Red]$LOCALIZE[210]: [/COLOR]]</label>
+      <label>$INFO[MusicPlayer.offset(-1).Title,[COLOR=Orange]$LOCALIZE[210]: [/COLOR]]</label>
       <font>Details</font>
       <textoffsetx>20</textoffsetx>
       <textcolor>Grey3</textcolor>
@@ -235,7 +235,7 @@
       <scrollout>false</scrollout>
       <scrollspeed>200</scrollspeed>
       <pauseatend>5000</pauseatend>
-      <label>$INFO[MusicPlayer.offset(1).Title,[COLOR=Red]$LOCALIZE[209]: [/COLOR]]</label>
+      <label>$INFO[MusicPlayer.offset(1).Title,[COLOR=Orange]$LOCALIZE[209]: [/COLOR]]</label>
       <font>Details</font>
       <textoffsetx>20</textoffsetx>
       <textcolor>Grey3</textcolor>
