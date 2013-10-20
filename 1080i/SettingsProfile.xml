@@ -21,7 +21,7 @@
         <width>800</width>
         <height>40</height>
         <align>center</align>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
         <label>$LOCALIZE[10034]</label>
       </control>
       <control type="togglebutton" id="4" description="Enable Login Screen">

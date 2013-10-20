@@ -163,7 +163,7 @@
             <posy>411</posy>
             <width>300</width>
             <height>45</height>
-            <textcolor>Red</textcolor>
+            <textcolor>Orange</textcolor>
             <align>center</align>
             <font>Details</font>
             <label>$INFO[ListItem.Label]</label>
@@ -326,14 +326,14 @@
                 <width>300</width>
                 <height>70</height>
                 <font>Slider</font>
-                <textcolor>Red</textcolor>
+                <textcolor>Orange</textcolor>
                 <label>$LOCALIZE[31973] $INFO[ListItem.Season,,.]$INFO[ListItem.Episode]</label>
               </control>
               <control type="image" description="Watched Overlay">
                 <posx>357</posx>
                 <width>33</width>
                 <height>70</height>
-                <colordiffuse>Red</colordiffuse>
+                <colordiffuse>Orange</colordiffuse>
                 <texture>$VAR[Overlay]</texture>
                 <aspectratio>keep</aspectratio>
               </control>
@@ -343,7 +343,7 @@
               <posy>291</posy>
               <width>450</width>
               <height>45</height>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <align>center</align>
               <font>Details</font>
               <label>$INFO[ListItem.Label]</label>
@@ -407,7 +407,7 @@
             <posy>327</posy>
             <width>420</width>
             <height>45</height>
-            <textcolor>Red</textcolor>
+            <textcolor>Orange</textcolor>
             <align>center</align>
             <font>Details</font>
             <label>$INFO[ListItem.Label]</label>

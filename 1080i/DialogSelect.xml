@@ -37,7 +37,7 @@
         <height>30</height>
         <align>center</align>
         <font>ListDetails</font>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
       </control>
       <control type="label" id="1" description="Header">
         <visible>Control.IsVisible(6)</visible>
@@ -47,7 +47,7 @@
         <height>30</height>
         <align>center</align>
         <font>ListDetails</font>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
       </control>
       <control type="group" description="Group 6 Thumbs">
         <visible>!Control.IsVisible(3)</visible>

@@ -205,7 +205,7 @@
       <visible>Control.HasFocus(413)</visible>
       <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Label_Commons</include>
       <include>Recommended_Label</include>
-      <label>$INFO[Container(413).ListItem.Label2,,[COLOR=Red]  •  [/COLOR]]$INFO[Container(413).ListItem.Label]</label>
+      <label>$INFO[Container(413).ListItem.Label2,,[COLOR=Orange]  •  [/COLOR]]$INFO[Container(413).ListItem.Label]</label>
     </control>
     <control type="fixedlist" id="413" description="TV Shows XBMC Widgets">
       <visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.1.Title))</visible>

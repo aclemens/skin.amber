@@ -20,7 +20,7 @@
         <posy>155</posy>
         <width>630</width>
         <height>36</height>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
         <font>InfoTitle</font>
         <align>center</align>
         <label>$LOCALIZE[19019] • $INFO[VideoPlayer.ChannelGroup]</label>

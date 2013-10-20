@@ -69,7 +69,7 @@
           <width>800</width>
           <height>33</height>
           <font>InfoTitle</font>
-          <textcolor>Red</textcolor>
+          <textcolor>Orange</textcolor>
           <shadowcolor>Black</shadowcolor>
           <align>center</align>
           <scroll>false</scroll>
@@ -108,7 +108,7 @@
           <width>800</width>
           <height>33</height>
           <font>Details</font>
-          <textcolor>Red</textcolor>
+          <textcolor>Orange</textcolor>
           <align>center</align>
 		  <label>$INFO[ListItem.Label2]</label>
         </control>

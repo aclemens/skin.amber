@@ -23,7 +23,7 @@
         <posx>560</posx>
         <posy>405</posy>
         <width>800</width>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
         <align>center</align>
       </control>
       <control type="group">
@@ -484,7 +484,7 @@
               <posy>72</posy>
               <width>300</width>
               <label>@ ? , # ; ) !</label>
-              <altlabel>[COLOR=Red][UPPERCASE]@ ? , # ; ) ![/UPPERCASE][/COLOR]</altlabel>
+              <altlabel>[COLOR=Orange][UPPERCASE]@ ? , # ; ) ![/UPPERCASE][/COLOR]</altlabel>
               <onleft>76</onleft>
               <onright>71</onright>
               <onup>8</onup>
@@ -516,7 +516,7 @@
               <ondown>302</ondown>
               <font>ListDetails</font>
               <label>$LOCALIZE[20179]</label>
-              <altlabel>[COLOR=Red][UPPERCASE]$LOCALIZE[20179][/UPPERCASE][/COLOR]</altlabel>
+              <altlabel>[COLOR=Orange][UPPERCASE]$LOCALIZE[20179][/UPPERCASE][/COLOR]</altlabel>
               <include>KeyboardButtons</include>
             </control>
             <control type="togglebutton" id="302" description="Shift">
@@ -529,7 +529,7 @@
               <ondown>300</ondown>
               <font>ListDetails</font>
               <label>$LOCALIZE[20178]</label>
-              <altlabel>[COLOR=Red][UPPERCASE]$LOCALIZE[20178][/UPPERCASE][/COLOR]</altlabel>
+              <altlabel>[COLOR=Orange][UPPERCASE]$LOCALIZE[20178][/UPPERCASE][/COLOR]</altlabel>
               <include>KeyboardButtons</include>
             </control>
             <control type="button" id="300" description="DONE button">
@@ -569,7 +569,7 @@
         <posx>560</posx>
         <posy>494</posy>
         <width>800</width>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
 		<align>center</align>
       </control>
     <control type="group">
@@ -833,7 +833,7 @@
 		  <font>ListDetails</font>
           <include>KeyboardButtons</include>
 		  <label>$LOCALIZE[20178]</label>
-          <altlabel>[COLOR=Red][UPPERCASE]$LOCALIZE[20178][/UPPERCASE][/COLOR]</altlabel>
+          <altlabel>[COLOR=Orange][UPPERCASE]$LOCALIZE[20178][/UPPERCASE][/COLOR]</altlabel>
         </control>
         
 		<control type="button" id="65">
@@ -940,7 +940,7 @@
           <ondown>304</ondown>
 		  <width>205</width>
               <label>$LOCALIZE[20179]</label>
-              <altlabel>[COLOR=Red][UPPERCASE]$LOCALIZE[20179][/UPPERCASE][/COLOR]</altlabel>
+              <altlabel>[COLOR=Orange][UPPERCASE]$LOCALIZE[20179][/UPPERCASE][/COLOR]</altlabel>
 		  <font>ListDetails</font>
 			  <include>KeyboardButtons</include>
             </control>

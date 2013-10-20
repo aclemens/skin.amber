@@ -29,7 +29,7 @@
 				<label>$LOCALIZE[SCRIPT0]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>Red</textcolor>
+				<textcolor>Orange</textcolor>
 			</control>
 			<!-- ** Required ** Do not change <id> or <type> (Text box for lyrics) -->
 			<control type="textbox" id="100">
@@ -93,7 +93,7 @@
 						<height>40</height>
 						<aligny>center</aligny>
 						<align>center</align>
-						<textcolor>Red</textcolor>
+						<textcolor>Orange</textcolor>
 						<shadowcolor>ShadowDark</shadowcolor>
 						<label fallback="- -">[B]$INFO[ListItem.Label][/B]</label>
 					</control>

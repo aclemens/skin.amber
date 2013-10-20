@@ -21,7 +21,7 @@
         <height>50</height>
         <label>$LOCALIZE[130]</label>
         <align>center</align>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
       </control>
       <control type="group">
         <posy>60</posy>

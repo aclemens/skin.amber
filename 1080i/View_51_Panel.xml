@@ -275,7 +275,7 @@
               <width>360</width>
               <height>45</height>
               <font>Details</font>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <align>center</align>
               <label>$INFO[ListItem.Label]</label>
             </control>

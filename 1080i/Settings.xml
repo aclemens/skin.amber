@@ -30,7 +30,7 @@
         <align>center</align>
         <label>$LOCALIZE[5] - XBMC</label>
         <font>InfoTitle</font>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
       </control>
       <control type="label" description="Amber">
         <visible>![Container(9000).HasFocus(1)]</visible>
@@ -41,7 +41,7 @@
         <align>center</align>
         <label>$LOCALIZE[5] - AMBER</label>
         <font>InfoTitle</font>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
       </control>
       <!-- 9000 Left panel -->
       <control type="list" id="9000">
@@ -85,7 +85,7 @@
             <posy>0</posy>
             <width>301</width>
             <height>60</height>
-            <textcolor>Red</textcolor>
+            <textcolor>Orange</textcolor>
             <label>$INFO[ListItem.Label]</label>
           </control>
         </focusedlayout>
@@ -156,7 +156,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -195,7 +195,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -322,7 +322,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -361,7 +361,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -571,8 +571,8 @@
           <content>
             <item id="21" description="CustomHome1">
               <visible>!IsEmpty(Skin.String(CustomHome.1.Path))</visible>
-              <label>[COLOR=Red]$INFO[Skin.String(CustomHome.1.Label)][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$INFO[Skin.String(CustomHome.1.Label)][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/default/default.jpg">$INFO[Skin.String(CustomHome.1.Background)]</thumb>
               <onclick>RunScript(script.favourites,changetitle=true&amp;property=CustomHome.1)</onclick>
             </item>
@@ -584,8 +584,8 @@
             </item>
             <item id="1" description="Pictures">
               <visible>!Skin.HasSetting(Pictures.Hide)</visible>
-              <label>[COLOR=Red]$LOCALIZE[1][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[1][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/Pictures.jpg">$INFO[Skin.String(Pictures.Background)]</thumb>
               <onclick>Skin.ToggleSetting(Pictures.Hide)</onclick>
             </item>
@@ -598,8 +598,8 @@
             </item>
             <item id="22" description="CustomHome2">
               <visible>!IsEmpty(Skin.String(CustomHome.2.Path))</visible>
-              <label>[COLOR=Red]$INFO[Skin.String(CustomHome.2.Label)][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$INFO[Skin.String(CustomHome.2.Label)][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/default/default.jpg">$INFO[Skin.String(CustomHome.2.Background)]</thumb>
               <onclick>RunScript(script.favourites,changetitle=true&amp;property=CustomHome.2)</onclick>
             </item>
@@ -611,8 +611,8 @@
             </item>
             <item id="2" description="Addons">
               <visible>!Skin.HasSetting(Addons.Hide)</visible>
-              <label>[COLOR=Red]$LOCALIZE[24001][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[24001][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/Addons.jpg">$INFO[Skin.String(Addons.Background)]</thumb>
               <onclick>Skin.ToggleSetting(Addons.Hide)</onclick>
             </item>
@@ -625,8 +625,8 @@
             </item>
             <item id="23" description="CustomHome.3">
               <visible>!IsEmpty(Skin.String(CustomHome.3.Path))</visible>
-              <label>[COLOR=Red]$INFO[Skin.String(CustomHome.3.Label)][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$INFO[Skin.String(CustomHome.3.Label)][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/default/default.jpg">$INFO[Skin.String(CustomHome.3.Background)]</thumb>
               <onclick>RunScript(script.favourites,changetitle=true&amp;property=CustomHome.3)</onclick>
             </item>
@@ -638,8 +638,8 @@
             </item>
             <item id="3" description="Videos">
               <visible>!Skin.HasSetting(Videos.Hide)</visible>
-              <label>[COLOR=Red]$LOCALIZE[3][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[3][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/Videos.jpg">$INFO[Skin.String(Videos.Background)]</thumb>
               <onclick>Skin.ToggleSetting(Videos.Hide)</onclick>
             </item>
@@ -652,8 +652,8 @@
             </item>
             <item id="24" description="CustomHome.4">
               <visible>!IsEmpty(Skin.String(CustomHome.4.Path))</visible>
-              <label>[COLOR=Red]$INFO[Skin.String(CustomHome.4.Label)][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$INFO[Skin.String(CustomHome.4.Label)][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/default/default.jpg">$INFO[Skin.String(CustomHome.4.Background)]</thumb>
               <onclick>RunScript(script.favourites,changetitle=true&amp;property=CustomHome.4)</onclick>
             </item>
@@ -665,8 +665,8 @@
             </item>
             <item id="4" description="MyMovies">
               <visible>!Skin.HasSetting(Movies.Hide) + Library.HasContent(Movies)</visible>
-              <label>[COLOR=Red]$LOCALIZE[20342][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[20342][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/Movies.jpg">$INFO[Skin.String(Movies.Background)]</thumb>
               <onclick>Skin.ToggleSetting(Movies.Hide)</onclick>
             </item>
@@ -679,8 +679,8 @@
             </item>
             <item id="25" description="CustomHome.5">
               <visible>!IsEmpty(Skin.String(CustomHome.5.Path))</visible>
-              <label>[COLOR=Red]$INFO[Skin.String(CustomHome.5.Label)][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$INFO[Skin.String(CustomHome.5.Label)][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/default/default.jpg">$INFO[Skin.String(CustomHome.5.Background)]</thumb>
               <onclick>RunScript(script.favourites,changetitle=true&amp;property=CustomHome.5)</onclick>
             </item>
@@ -692,8 +692,8 @@
             </item>
             <item id="5" description="MyTV">
               <visible>!Skin.HasSetting(TVShows.Hide) + Library.HasContent(TVShows)</visible>
-              <label>[COLOR=Red]$LOCALIZE[20343][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[20343][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/TVShows.jpg">$INFO[Skin.String(TVShows.Background)]</thumb>
               <onclick>Skin.ToggleSetting(TVShows.Hide)</onclick>
             </item>
@@ -706,8 +706,8 @@
             </item>
             <item id="26" description="CustomHome.6">
               <visible>!IsEmpty(Skin.String(CustomHome.6.Path))</visible>
-              <label>[COLOR=Red]$INFO[Skin.String(CustomHome.6.Label)][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$INFO[Skin.String(CustomHome.6.Label)][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/default/default.jpg">$INFO[Skin.String(CustomHome.6.Background)]</thumb>
               <onclick>RunScript(script.favourites,changetitle=true&amp;property=CustomHome.6)</onclick>
             </item>
@@ -719,8 +719,8 @@
             </item>
             <item id="6" description="Music">
               <visible>!Skin.HasSetting(Music.Hide)</visible>
-              <label>[COLOR=Red]$LOCALIZE[2][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[2][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/Music.jpg">$INFO[Skin.String(Music.Background)]</thumb>
               <onclick>Skin.ToggleSetting(Music.Hide)</onclick>
             </item>
@@ -733,8 +733,8 @@
             </item>
             <item id="27" description="CustomHome.7">
               <visible>!IsEmpty(Skin.String(CustomHome.7.Path))</visible>
-              <label>[COLOR=Red]$INFO[Skin.String(CustomHome.7.Label)][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$INFO[Skin.String(CustomHome.7.Label)][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/default/default.jpg">$INFO[Skin.String(CustomHome.7.Background)]</thumb>
               <onclick>RunScript(script.favourites,changetitle=true&amp;property=CustomHome.7)</onclick>
             </item>
@@ -746,8 +746,8 @@
             </item>
             <item id="30" description="Clips">
               <visible>Skin.HasSetting(Clips.Show)</visible>
-              <label>[COLOR=Red]$LOCALIZE[31972][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[31972][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/Clips.jpg">$INFO[Skin.String(Clips.Background)]</thumb>
               <onclick>Skin.ToggleSetting(Clips.Show)</onclick>
             </item>
@@ -760,8 +760,8 @@
             </item>
             <item id="31" description="Concerts">
               <visible>Skin.HasSetting(Concerts.Show)</visible>
-              <label>[COLOR=Red]$LOCALIZE[31971][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[31971][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/Concerts.jpg">$INFO[Skin.String(Concerts.Background)]</thumb>
               <onclick>Skin.ToggleSetting(Concerts.Show)</onclick>
             </item>
@@ -774,8 +774,8 @@
             </item>
             <item id="28" description="CustomHome.8">
               <visible>!IsEmpty(Skin.String(CustomHome.8.Path))</visible>
-              <label>[COLOR=Red]$INFO[Skin.String(CustomHome.8.Label)][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$INFO[Skin.String(CustomHome.8.Label)][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/default/default.jpg">$INFO[Skin.String(CustomHome.8.Background)]</thumb>
               <onclick>RunScript(script.favourites,changetitle=true&amp;property=CustomHome.8)</onclick>
             </item>
@@ -787,8 +787,8 @@
             </item>
             <item id="7" description="Favorites">
               <visible>!Skin.HasSetting(Favourites.Hide)</visible>
-              <label>[COLOR=Red]$LOCALIZE[1036][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[1036][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/Favourites.jpg">$INFO[Skin.String(Favorites.Background)]</thumb>
               <onclick>Skin.ToggleSetting(Favourites.Hide)</onclick>
             </item>
@@ -801,8 +801,8 @@
             </item>
             <item id="29" description="CustomHome.9">
               <visible>!IsEmpty(Skin.String(CustomHome.9.Path))</visible>
-              <label>[COLOR=Red]$INFO[Skin.String(CustomHome.9.Label)][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$INFO[Skin.String(CustomHome.9.Label)][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/default/default.jpg">$INFO[Skin.String(CustomHome.9.Background)]</thumb>
               <onclick>RunScript(script.favourites,changetitle=true&amp;property=CustomHome.9)</onclick>
             </item>
@@ -814,8 +814,8 @@
             </item>
             <item id="8" description="DVD">
               <visible>!Skin.HasSetting(DVD.Hide)</visible>
-              <label>[COLOR=Red]$LOCALIZE[427][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[427][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/DVD.jpg">$INFO[Skin.String(DVD.Background)]</thumb>
               <onclick>Skin.ToggleSetting(DVD.Hide)</onclick>
             </item>
@@ -828,8 +828,8 @@
             </item>
             <item id="15" description="Weather">
               <visible>!Skin.HasSetting(Weather.Hide)</visible>
-              <label>[COLOR=Red]$LOCALIZE[8][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[8][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <onclick>Skin.ToggleSetting(Weather.Hide)</onclick>
             </item>
             <item id="15" description="Weather">
@@ -846,8 +846,8 @@
             </item>
             <item id="11" description="Quit">
               <visible>!Skin.HasSetting(Quit.Hide)</visible>
-              <label>[COLOR=Red]$LOCALIZE[13009][/COLOR]</label>
-              <label2>[COLOR=Red]$LOCALIZE[305][/COLOR]</label2>
+              <label>[COLOR=Orange]$LOCALIZE[13009][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <thumb fallback="special://skin/backgrounds/Quit.jpg">$INFO[Skin.String(Quit.Background)]</thumb>
               <onclick>Skin.ToggleSetting(Quit.Hide)</onclick>
             </item>
@@ -924,7 +924,7 @@
                 <width>960</width>
                 <height>60</height>
                 <align>right</align>
-                <textcolor>Red</textcolor>
+                <textcolor>Orange</textcolor>
                 <label>$INFO[ListItem.Label]</label>
               </control>
             </focusedlayout>
@@ -1372,7 +1372,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -1401,7 +1401,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -1571,7 +1571,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -1610,7 +1610,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -1701,7 +1701,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -1740,7 +1740,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -1872,7 +1872,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -1911,7 +1911,7 @@
               <haspath>true</haspath>
               <align>right</align>
               <scroll>false</scroll>
-              <textcolor>Red</textcolor>
+              <textcolor>Orange</textcolor>
               <label>$INFO[ListItem.Label2]</label>
             </control>
             <control type="label" description="Main Label">
@@ -1998,7 +1998,7 @@
       <height>780</height>
 	  <font>InfoPlot</font>
 	  <align>left</align>
-	  <textcolor>Red</textcolor>
+	  <textcolor>Orange</textcolor>
 	  <label>$LOCALIZE[31982]</label>
     </control>
 	<control type="scrollbar" id="63">

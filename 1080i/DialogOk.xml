@@ -26,7 +26,7 @@
         <posy>40</posy>
         <height>40</height>
         <width>960</width>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
         <align>center</align>
       </control>
       <control type="label" id="2" description="Line 1">

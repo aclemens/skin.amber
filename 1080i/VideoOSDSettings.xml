@@ -20,7 +20,7 @@
         <posy>21</posy>
         <width>810</width>
         <font>InfoTitle</font>
-        <textcolor>Red</textcolor>
+        <textcolor>Orange</textcolor>
         <shadowcolor>Black</shadowcolor>
         <align>center</align>
       </control>

@@ -472,7 +472,7 @@
           <aligny>center</aligny>
           <align>left</align>
           <scroll>false</scroll>
-          <label>[COLOR=Red]$INFO[ListItem.Label][/COLOR]$INFO[ListItem.Duration,  -  ,  -  ]  [COLOR=Grey]$INFO[ListItem.StartTime,( ,  -  ]$INFO[ListItem.EndTime,, )][/COLOR]</label>
+          <label>[COLOR=Orange]$INFO[ListItem.Label][/COLOR]$INFO[ListItem.Duration,  -  ,  -  ]  [COLOR=Grey]$INFO[ListItem.StartTime,( ,  -  ]$INFO[ListItem.EndTime,, )][/COLOR]</label>
         </control>
       </control>
     </control>
@@ -646,7 +646,7 @@
           <aligny>center</aligny>
           <align>left</align>
           <scroll>false</scroll>
-          <label>[COLOR=Red]$INFO[ListItem.Label][/COLOR]$INFO[ListItem.Duration,  -  ,  -  ]  [COLOR=Grey]$INFO[ListItem.StartTime,( ,  -  ]$INFO[ListItem.EndTime,, )][/COLOR]</label>
+          <label>[COLOR=Orange]$INFO[ListItem.Label][/COLOR]$INFO[ListItem.Duration,  -  ,  -  ]  [COLOR=Grey]$INFO[ListItem.StartTime,( ,  -  ]$INFO[ListItem.EndTime,, )][/COLOR]</label>
         </control>
         <control type="label">
           <description>Next timer date</description>
@@ -1111,7 +1111,7 @@
           <aligny>center</aligny>
           <align>left</align>
           <scroll>false</scroll>
-          <label>[COLOR=Red]$INFO[ListItem.Label][/COLOR]$INFO[ListItem.Duration,  -  ,  -  ]  [COLOR=Grey]$INFO[ListItem.StartTime,( ,  -  ]$INFO[ListItem.EndTime,, )][/COLOR]</label>
+          <label>[COLOR=Orange]$INFO[ListItem.Label][/COLOR]$INFO[ListItem.Duration,  -  ,  -  ]  [COLOR=Grey]$INFO[ListItem.StartTime,( ,  -  ]$INFO[ListItem.EndTime,, )][/COLOR]</label>
         </control>
       </control>
     </control>
@@ -1391,7 +1391,7 @@
           <posy>-12</posy>
           <width>660</width>
           <font>InfoTitle</font>
-          <textcolor>Red</textcolor>
+          <textcolor>Orange</textcolor>
           <aligny>center</aligny>
           <height>60</height>
           <wrapmultiline>true</wrapmultiline>
@@ -1535,7 +1535,7 @@
           <posy>-12</posy>
           <width>660</width>
           <font>InfoTitle</font>
-          <textcolor>Red</textcolor>
+          <textcolor>Orange</textcolor>
           <aligny>center</aligny>
           <height>60</height>
           <wrapmultiline>true</wrapmultiline>
