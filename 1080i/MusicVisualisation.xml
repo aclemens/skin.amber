@@ -220,7 +220,7 @@
         <scrollout>false</scrollout>
         <scrollspeed>200</scrollspeed>
         <pauseatend>5000</pauseatend>
-        <label>$INFO[MusicPlayer.offset(-1).Title,[COLOR=Orange]$LOCALIZE[210]: [/COLOR]]</label>
+        <label>$INFO[MusicPlayer.offset(-1).Artist,[COLOR=Orange]$LOCALIZE[210]: [/COLOR]] - [COLOR=White]$INFO[MusicPlayer.offset(-1).Title][/COLOR]</label>
         <font>Details</font>
         <textoffsetx>20</textoffsetx>
         <textcolor>Grey3</textcolor>
@@ -235,7 +235,7 @@
         <scrollout>false</scrollout>
         <scrollspeed>200</scrollspeed>
         <pauseatend>5000</pauseatend>
-        <label>$INFO[MusicPlayer.offset(1).Title,[COLOR=Orange]$LOCALIZE[209]: [/COLOR]]</label>
+        <label>$INFO[MusicPlayer.offset(1).Artist,[COLOR=Orange]$LOCALIZE[209]: [/COLOR]] - [COLOR=White]$INFO[MusicPlayer.offset(1).Title][/COLOR]</label>
         <font>Details</font>
         <textoffsetx>20</textoffsetx>
         <textcolor>Grey3</textcolor>
