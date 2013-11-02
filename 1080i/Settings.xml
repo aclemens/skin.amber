@@ -1986,6 +1986,18 @@
               <label2>$LOCALIZE[107]</label2>
               <onclick>Skin.ToggleSetting(Hide.LibraryUpdate.Button)</onclick>
             </item>
+            <item id="5" description="Hide next / previous buttons">
+              <visible>!Skin.HasSetting(Hide.PreviousNext.Button)</visible>
+              <label>$LOCALIZE[31996]</label>
+              <label2>$LOCALIZE[106]</label2>
+              <onclick>Skin.ToggleSetting(Hide.PreviousNext.Button)</onclick>
+            </item>
+            <item id="5" description="Hide next / previous buttons">
+              <visible>Skin.HasSetting(Hide.PreviousNext.Button)</visible>
+              <label>$LOCALIZE[31996]</label>
+              <label2>$LOCALIZE[107]</label2>
+              <onclick>Skin.ToggleSetting(Hide.PreviousNext.Button)</onclick>
+            </item>
           </content>
         </control>
       </control>

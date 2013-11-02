@@ -208,7 +208,7 @@
     </control>
     <control type="group" id="6666">
       <posy>1020</posy>
-      <visible>IntegerGreaterThan(Control.GetLabel(23),95) | !IntegerGreaterThan(Control.GetLabel(23),5)</visible>
+      <visible>!Skin.HasSetting(Hide.PreviousNext.Button) | [Skin.HasSetting(Hide.PreviousNext.Button) + [IntegerGreaterThan(Control.GetLabel(23),95) | !IntegerGreaterThan(Control.GetLabel(23),5)]]</visible>
       <animation effect="fade" time="800" delay="300">VisibleChange</animation>
       <animation condition="Window.IsActive(MusicOSD.xml)" effect="slide" start="0,0" end="0,-105" time="400">Conditional</animation>
       <control type="label" description="Previous">
