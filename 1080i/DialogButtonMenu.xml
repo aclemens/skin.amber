@@ -138,7 +138,7 @@
             <visible>!Skin.HasSetting(QuitMenu_Hide_Shutdown)</visible>
             <visible>System.CanPowerDown</visible>
             <onclick>dialog.close(all,true)</onclick>
-            <onclick>RunAddon("script.synology.poweroff")</onclick>
+            <onclick condition="System.HasAddon(script.synology.poweroff) + Skin.HasSetting(Use_Synology_PowerOff)">RunAddon(script.synology.poweroff)</onclick>
             <onclick>XBMC.Powerdown()</onclick>
             <label>$LOCALIZE[13005]</label>
             <thumb>ShutdownNF.png</thumb>

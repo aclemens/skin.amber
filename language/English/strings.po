@@ -423,3 +423,7 @@ msgstr ""
 msgctxt "#31996"
 msgid "Hide Previous / Next labels in music visualization"
 msgstr ""
+
+msgctxt "#31997"
+msgid "Power off Synology DiskStation"
+msgstr ""
