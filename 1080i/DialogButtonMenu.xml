@@ -17,34 +17,34 @@
         <effect type="fade" start="100" end="0" time="100" />
       </animation>
       <control type="image" description="Menu BG">
-        <posx>799</posx>
+        <posx>760</posx>
         <posy>300</posy>
         <height>512</height>
-        <width>322</width>
+        <width>400</width>
         <texture border="0,40,0,40">dialogs/ContextMenu.png</texture>
       </control>
       <control type="panel" id="9009" description="PW Options">
-        <posx>799</posx>
-        <posy>384</posy>
-        <width>322</width>
+        <posx>760</posx>
+        <posy>349</posy>
+        <width>400</width>
         <height>500</height>
         <onleft>close</onleft>
         <onright>close</onright>
         <onup>9009</onup>
         <ondown>9009</ondown>
         <scrolltime tween="sine" easing="inout">280</scrolltime>
-        <itemlayout height="60" width="322">
+        <itemlayout height="60" width="400">
           <control type="image">
             <posx>0</posx>
             <posy>0</posy>
-            <width>322</width>
+            <width>400</width>
             <height>60</height>
             <texture border="3">buttons/ButtonNF.png</texture>
           </control>
           <control type="label">
-            <posx>161</posx>
+            <posx>200</posx>
             <posy>0</posy>
-            <width>256</width>
+            <width>360</width>
             <height>60</height>
             <label>$INFO[ListItem.Label]</label>
             <align>center</align>
@@ -59,25 +59,25 @@
             <info>ListItem.Thumb</info>
           </control> -->
         </itemlayout>
-        <focusedlayout height="60" width="322">
+        <focusedlayout height="60" width="400">
           <control type="image">
             <posx>0</posx>
             <posy>0</posy>
-            <width>322</width>
+            <width>400</width>
             <height>60</height>
             <texture border="3">buttons/ButtonNF.png</texture>
           </control>
           <control type="image">
             <posx>0</posx>
             <posy>0</posy>
-            <width>322</width>
+            <width>400</width>
             <height>60</height>
             <texture>dialogs/ContextFO.png</texture>
           </control>
           <control type="label">
-            <posx>161</posx>
+            <posx>200</posx>
             <posy>0</posy>
-            <width>256</width>
+            <width>360</width>
             <height>60</height>
             <textcolor>Orange</textcolor>
             <label>$INFO[ListItem.Label]</label>
@@ -160,6 +160,19 @@
             <label>$LOCALIZE[5]</label>
             <thumb>SettingsNF.png</thumb>
             <icon>SettingsFO.png</icon>
+          </item>
+          <item id="17" description="Custom Shutdown Timer">
+            <visible>!System.HasAlarm(shutdowntimer)</visible>
+            <visible>System.CanPowerDown</visible>
+            <visible>!Skin.HasSetting(QuitMenu_Hide_Custom_Shutdown)</visible>
+            <onclick>XBMC.AlarmClock(shutdowntimer, XBMC.Quit())</onclick>
+            <label>$LOCALIZE[20150]</label>
+          </item>
+          <item id="18" description="Cancel Custom Shutdown Timer">
+            <visible>System.HasAlarm(shutdowntimer)</visible>
+            <visible>!Skin.HasSetting(QuitMenu_Hide_Custom_Shutdown)</visible>
+            <onclick>XBMC.CancelAlarm(shutdowntimer)</onclick>
+            <label>$LOCALIZE[20151]</label>
           </item>
         </content>
       </control>

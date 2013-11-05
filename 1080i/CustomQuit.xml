@@ -83,6 +83,12 @@
             <onclick>Skin.SetString(shutdown,quit)</onclick>
             <selected>StringCompare(Skin.String(shutdown),quit)</selected>
           </control>
+          <control type="radiobutton" id="707" description="Custom Shutdown Timer">
+            <width>525</width>
+            <label>$LOCALIZE[20150]</label>
+            <onclick>Skin.SetString(shutdown,customtimer)</onclick>
+            <selected>StringCompare(Skin.String(shutdown),customtimer)</selected>
+          </control>
         </control>
       </control>
     </control>

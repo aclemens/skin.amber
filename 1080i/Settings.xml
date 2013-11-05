@@ -1838,6 +1838,20 @@
               <label2>$LOCALIZE[106]</label2>
               <onclick>Skin.ToggleSetting(QuitMenu_Show_Settings)</onclick>
             </item>
+            <item id="7" description="Custom Shutdown Timer">
+              <visible>IsEmpty(Skin.String(shutdown))</visible>
+              <visible>!Skin.HasSetting(QuitMenu_Hide_Custom_Shutdown)</visible>
+              <label> - $LOCALIZE[20150]</label>
+              <label2>$LOCALIZE[107]</label2>
+              <onclick>Skin.ToggleSetting(QuitMenu_Hide_Custom_Shutdown)</onclick>
+            </item>
+            <item id="7" description="Custom Shutdown Timer">
+              <visible>IsEmpty(Skin.String(shutdown))</visible>
+              <visible>Skin.HasSetting(QuitMenu_Hide_Custom_Shutdown)</visible>
+              <label> - $LOCALIZE[20150]</label>
+              <label2>$LOCALIZE[106]</label2>
+              <onclick>Skin.ToggleSetting(QuitMenu_Hide_Custom_Shutdown)</onclick>
+            </item>
           </content>
         </control>
         <!-- 9000 8 -->

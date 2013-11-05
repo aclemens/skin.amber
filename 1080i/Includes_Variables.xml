@@ -58,6 +58,7 @@
     <value condition="StringCompare(Skin.String(shutdown),hibernate)">$LOCALIZE[13010]</value>
     <value condition="StringCompare(Skin.String(shutdown),suspend)">$LOCALIZE[13011]</value>
     <value condition="StringCompare(Skin.String(shutdown),reboot)">$LOCALIZE[13013]</value>
+    <value condition="StringCompare(Skin.String(shutdown),customtimer)">$LOCALIZE[20150]</value>
     <value condition="StringCompare(Skin.String(shutdown),logoff) + System.HasLoginScreen">$LOCALIZE[20126]</value>
   </variable>
   <variable name="QuitAction" description="Action for Quit function item">
