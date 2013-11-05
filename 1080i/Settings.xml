@@ -1817,7 +1817,7 @@
               <label2>$LOCALIZE[107]</label2>
               <onclick>Skin.ToggleSetting(QuitMenu_Hide_Reboot)</onclick>
             </item>
-            <item id="5" description="Shutdown">
+            <item id="5" description="Reboot">
               <visible>IsEmpty(Skin.String(shutdown))</visible>
               <visible>Skin.HasSetting(QuitMenu_Hide_Reboot)</visible>
               <label> - $LOCALIZE[13013]</label>
