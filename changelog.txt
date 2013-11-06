@@ -1,3 +1,15 @@
+1.1.7 (fork only)
+New Features
+	- Custom Shutdown Timer
+	- Integration of the Synology PowerOff script
+Music Visualization
+	- Removed the "flipping animation"
+	- Bigger fonts
+	- Star Rating
+Add a red color theme
+Fix scrollbar in MyMusicPlaylist
+
+
 1.1.0
 Add option to hide library update button from Home submenu
 Add chapter info to video player
