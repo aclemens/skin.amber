@@ -165,7 +165,7 @@
             <visible>!System.HasAlarm(shutdowntimer)</visible>
             <visible>System.CanPowerDown</visible>
             <visible>!Skin.HasSetting(QuitMenu_Hide_Custom_Shutdown)</visible>
-            <onclick>XBMC.AlarmClock(shutdowntimer, XBMC.Quit())</onclick>
+            <onclick>XBMC.AlarmClock(shutdowntimer, XBMC.Powerdown())</onclick>
             <label>$LOCALIZE[20150]</label>
           </item>
           <item id="18" description="Cancel Custom Shutdown Timer">
