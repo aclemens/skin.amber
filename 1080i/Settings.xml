@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window>
   <defaultcontrol always="true">9000</defaultcontrol>
   <allowoverlay>no</allowoverlay>
@@ -423,11 +424,6 @@
           <label>$LOCALIZE[24020] $LOCALIZE[31132]</label>
           <label2>$INFO[Skin.String(LyricPath)]</label2>
           <onclick>Skin.SetAddon(LyricPath,xbmc.python.lyrics)</onclick>
-        </item>
-        <item id="4" description="Subtitles">
-          <label>$LOCALIZE[24020] $LOCALIZE[31133]</label>
-          <label2>$INFO[Skin.String(SubtitleScript_Path)]</label2>
-          <onclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
         </item>
             <item id="5" description="Show player on home">
           <visible>Skin.HasSetting(Show_Player)</visible>
