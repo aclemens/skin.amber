@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <includes>
   <include name="RecentlyAdded_Header">
     <animation effect="slide" start="0,0" end="0,-162" time="0" condition="!Skin.HasSetting(plexbmc) + [Control.IsVisible(312) | Control.IsVisible(413) | Control.IsVisible(513) | Control.IsVisible(515)]">Conditional</animation>
@@ -130,7 +131,7 @@
         <height>285</height>
         <include>PosterThumb</include>
       </control>
-    </itemlayout>
+	</itemlayout>
     <focusedlayout height="345" width="228">
       <control type="image">
         <visible>![Control.HasFocus(312) | Control.HasFocus(515)]</visible>
