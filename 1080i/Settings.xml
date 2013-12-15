@@ -13,15 +13,6 @@
         <include>Panel_Size</include>
         <texture>dialogs/AddonSettingsBG.png</texture>
       </control>
-      <!--<control type="label">
-        <posx>100</posx>
-        <posy>120</posy>
-        <width>240</width>
-        <height>61</height>
-		<font>Logo</font>
-		<align>center</align>
-		<label>XBMC</label>
-  </control>-->
   <control type="label" description="XBMC settings">
     <visible>Container(9000).HasFocus(1)</visible>
     <posx>650</posx>
@@ -466,7 +457,19 @@
           <label2>$LOCALIZE[106]</label2>
           <onclick>Skin.ToggleSetting(FullscreenMusic)</onclick>
         </item>
-        <item id="15" description="Reset Skin">
+			<item id="15" description="Holiday">
+              <visible>Skin.HasSetting(holiday)</visible>
+              <label>[COLOR=Orange]$LOCALIZE[31996][/COLOR]</label>
+              <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
+              <onclick>Skin.ToggleSetting(holiday)</onclick>
+            </item>
+            <item id="15" description="Holiday">
+              <visible>!Skin.HasSetting(holiday)</visible>
+              <label>[COLOR=Orange]$LOCALIZE[31996][/COLOR]</label>
+              <label2>$LOCALIZE[1223]</label2>
+              <onclick>Skin.ToggleSetting(holiday)</onclick>
+            </item>
+            <item id="16" description="Reset Skin">
           <label>$LOCALIZE[31038]</label>
           <onclick>Skin.ResetSettings</onclick>
           <onclick>XBMC.ReloadSkin()</onclick>
@@ -2013,29 +2016,42 @@
               <label2>$LOCALIZE[107]</label2>
               <onclick>Skin.ToggleSetting(Hide.LibraryUpdate.Button)</onclick>
             </item>
-            <item id="5" description="Hide next / previous buttons">
+			<!--<item id="5" description="Start playlist">
+              <visible>!Skin.HasSetting(start.playlist)</visible>
+              <label>31115</label>
+              <label2>$LOCALIZE[1223]</label2>
+              <onclick>Skin.ToggleSetting(start.playlist)</onclick>
+			  <onclick>Skin.SetFile(start.playlist.path,,special://MusicPlaylists/)</onclick>
+            </item>
+            <item id="5" description="Start playlist">
+              <visible>Skin.HasSetting(start.playlist)</visible>
+              <label>31116</label>
+              <label2 fallback="107">$INFO[Skin.String(start.playlist.path)]</label2>
+              <onclick>Skin.ToggleSetting(start.playlist)</onclick>
+            </item>-->
+            <item id="6" description="Hide next / previous buttons">
               <visible>!Skin.HasSetting(Hide.PreviousNext.Button)</visible>
-              <label>$LOCALIZE[31996]</label>
+              <label>$LOCALIZE[31997]</label>
               <label2>$LOCALIZE[106]</label2>
               <onclick>Skin.ToggleSetting(Hide.PreviousNext.Button)</onclick>
             </item>
-            <item id="5" description="Hide next / previous buttons">
+            <item id="6" description="Hide next / previous buttons">
               <visible>Skin.HasSetting(Hide.PreviousNext.Button)</visible>
-              <label>$LOCALIZE[31996]</label>
+              <label>$LOCALIZE[31997]</label>
               <label2>$LOCALIZE[107]</label2>
               <onclick>Skin.ToggleSetting(Hide.PreviousNext.Button)</onclick>
             </item>
-            <item id="6" description="Poweroff Synology">
+            <item id="7" description="Poweroff Synology">
               <visible>System.HasAddon(script.synology.poweroff)</visible>
               <visible>!Skin.HasSetting(Use_Synology_PowerOff)</visible>
-              <label>$LOCALIZE[31997]</label>
+              <label>$LOCALIZE[31998]</label>
               <label2>$LOCALIZE[106]</label2>
               <onclick>Skin.ToggleSetting(Use_Synology_PowerOff)</onclick>
             </item>
-            <item id="6" description="Poweroff Synology">
+            <item id="7" description="Poweroff Synology">
               <visible>System.HasAddon(script.synology.poweroff)</visible>
               <visible>Skin.HasSetting(Use_Synology_PowerOff)</visible>
-              <label>$LOCALIZE[31997]</label>
+              <label>$LOCALIZE[31998]</label>
               <label2>$LOCALIZE[107]</label2>
               <onclick>Skin.ToggleSetting(Use_Synology_PowerOff)</onclick>
             </item>
@@ -2070,5 +2086,6 @@
       <onleft>9003</onleft>
       <onright>9000</onright>
     </control>
+	<include condition="Skin.HasSetting(holiday)">Holiday</include>
   </controls>
 </window>
