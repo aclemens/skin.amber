@@ -457,10 +457,10 @@ msgctxt "#31996"
 msgid "Holiday snowfall theme"
 msgstr ""
 
-msgctxt "#31996"
+msgctxt "#31997"
 msgid "Hide Previous / Next labels in music visualization"
 msgstr ""
 
-msgctxt "#31997"
+msgctxt "#31998"
 msgid "Power off Synology DiskStation"
 msgstr ""

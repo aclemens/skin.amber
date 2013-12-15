@@ -2022,27 +2022,27 @@
 
             <item id="6" description="Hide next / previous buttons">
               <visible>!Skin.HasSetting(Hide.PreviousNext.Button)</visible>
-              <label>$LOCALIZE[31996]</label>
+              <label>$LOCALIZE[31997]</label>
               <label2>$LOCALIZE[106]</label2>
               <onclick>Skin.ToggleSetting(Hide.PreviousNext.Button)</onclick>
             </item>
             <item id="6" description="Hide next / previous buttons">
               <visible>Skin.HasSetting(Hide.PreviousNext.Button)</visible>
-              <label>$LOCALIZE[31996]</label>
+              <label>$LOCALIZE[31997]</label>
               <label2>$LOCALIZE[107]</label2>
               <onclick>Skin.ToggleSetting(Hide.PreviousNext.Button)</onclick>
             </item>
             <item id="7" description="Poweroff Synology">
               <visible>System.HasAddon(script.synology.poweroff)</visible>
               <visible>!Skin.HasSetting(Use_Synology_PowerOff)</visible>
-              <label>$LOCALIZE[31997]</label>
+              <label>$LOCALIZE[31998]</label>
               <label2>$LOCALIZE[106]</label2>
               <onclick>Skin.ToggleSetting(Use_Synology_PowerOff)</onclick>
             </item>
             <item id="7" description="Poweroff Synology">
               <visible>System.HasAddon(script.synology.poweroff)</visible>
               <visible>Skin.HasSetting(Use_Synology_PowerOff)</visible>
-              <label>$LOCALIZE[31997]</label>
+              <label>$LOCALIZE[31998]</label>
               <label2>$LOCALIZE[107]</label2>
               <onclick>Skin.ToggleSetting(Use_Synology_PowerOff)</onclick>
             </item>
