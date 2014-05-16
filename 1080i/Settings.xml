@@ -434,10 +434,15 @@
           <label2>$LOCALIZE[106]</label2>
           <onclick>Skin.ToggleSetting(Show_Player)</onclick>
         </item>
-            <item id="12" description="Movies entry points">
+            <item id="11" description="Movies entry points">
               <label>$LOCALIZE[31507]</label>
               <label2 fallback="31502">$VAR[MovieEntryPointLabel2]</label2>
               <onclick>ActivateWindow(1115)</onclick>
+            </item>
+			<item id="12" description="TV entry points">
+              <label>$LOCALIZE[31508]</label>
+              <label2 fallback="31499">$VAR[TVEntryPointLabel2]</label2>
+              <onclick>ActivateWindow(1120)</onclick>
             </item>
         <item id="13" description="Use artist view">
           <visible>Skin.HasSetting(ArtistView)</visible>
@@ -463,19 +468,31 @@
           <label2>$LOCALIZE[106]</label2>
           <onclick>Skin.ToggleSetting(FullscreenMusic)</onclick>
         </item>
-            <item id="15" description="Holiday">
+            <item id="15" description="Hide channel logos in PVR List/Timeline">
+              <visible>Skin.HasSetting(HideEPGLogos)</visible>
+              <label>$LOCALIZE[31997]</label>
+              <label2>$LOCALIZE[107]</label2>
+              <onclick>Skin.ToggleSetting(HideEPGLogos)</onclick>
+            </item>
+            <item id="15" description="Hide channel logos in PVR List/Timeline">
+              <visible>!Skin.HasSetting(HideEPGLogos)</visible>
+              <label>$LOCALIZE[31997]</label>
+              <label2>$LOCALIZE[106]</label2>
+              <onclick>Skin.ToggleSetting(HideEPGLogos)</onclick>
+            </item>
+            <item id="16" description="Holiday">
               <visible>Skin.HasSetting(holiday)</visible>
               <label>$LOCALIZE[31996]</label>
               <label2>[COLOR=Orange]$LOCALIZE[305][/COLOR]</label2>
               <onclick>Skin.ToggleSetting(holiday)</onclick>
             </item>
-            <item id="15" description="Holiday">
+            <item id="16" description="Holiday">
               <visible>!Skin.HasSetting(holiday)</visible>
               <label>$LOCALIZE[31996]</label>
               <label2>$LOCALIZE[1223]</label2>
               <onclick>Skin.ToggleSetting(holiday)</onclick>
             </item>
-            <item id="16" description="Reset Skin">
+            <item id="17" description="Reset Skin">
           <label>$LOCALIZE[31038]</label>
           <onclick>Skin.ResetSettings</onclick>
           <onclick>XBMC.ReloadSkin()</onclick>
@@ -2023,29 +2040,15 @@
             </item>-->
             <item id="6" description="Hide next / previous buttons">
               <visible>!Skin.HasSetting(Hide.PreviousNext.Button)</visible>
-              <label>$LOCALIZE[31997]</label>
+              <label>$LOCALIZE[31998]</label>
               <label2>$LOCALIZE[106]</label2>
               <onclick>Skin.ToggleSetting(Hide.PreviousNext.Button)</onclick>
             </item>
             <item id="6" description="Hide next / previous buttons">
               <visible>Skin.HasSetting(Hide.PreviousNext.Button)</visible>
-              <label>$LOCALIZE[31997]</label>
+              <label>$LOCALIZE[31998]</label>
               <label2>$LOCALIZE[107]</label2>
               <onclick>Skin.ToggleSetting(Hide.PreviousNext.Button)</onclick>
-            </item>
-            <item id="7" description="Poweroff Synology">
-              <visible>System.HasAddon(script.synology.poweroff)</visible>
-              <visible>!Skin.HasSetting(Use_Synology_PowerOff)</visible>
-              <label>$LOCALIZE[31998]</label>
-              <label2>$LOCALIZE[106]</label2>
-              <onclick>Skin.ToggleSetting(Use_Synology_PowerOff)</onclick>
-            </item>
-            <item id="7" description="Poweroff Synology">
-              <visible>System.HasAddon(script.synology.poweroff)</visible>
-              <visible>Skin.HasSetting(Use_Synology_PowerOff)</visible>
-              <label>$LOCALIZE[31998]</label>
-              <label2>$LOCALIZE[107]</label2>
-              <onclick>Skin.ToggleSetting(Use_Synology_PowerOff)</onclick>
             </item>
           </content>
         </control>

@@ -220,8 +220,12 @@ msgctxt "#31392"
 msgid "(3/4) Arial based"
 msgstr ""
 
-#empty strings from id 31393 to 31499
+#empty strings from id 31393 to 31498
 #Extra Unified PVR labels
+
+msgctxt "#31499"
+msgid "All TV Shows"
+msgstr ""
 
 msgctxt "#31500"
 msgid "Live TV"
@@ -255,7 +259,11 @@ msgctxt "#31507"
 msgid "Movies homescreen button opens:"
 msgstr ""
 
-#empty strings from id 31508 to 31509
+msgctxt "#31508"
+msgid "TV Shows homescreen button opens:"
+msgstr ""
+
+#empty strings from id 31509 to 31509
 
 msgctxt "#31510"
 msgid "Timer Set"
@@ -462,9 +470,9 @@ msgid "Holiday snowfall theme"
 msgstr ""
 
 msgctxt "#31997"
-msgid "Hide Previous / Next labels in music visualization"
+msgid "Hide channel logos in PVR List/Timeline"
 msgstr ""
 
 msgctxt "#31998"
-msgid "Power off Synology DiskStation"
+msgid "Hide Previous / Next labels in music visualization"
 msgstr ""
