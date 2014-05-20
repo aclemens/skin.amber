@@ -132,6 +132,8 @@
             <control type="image">
               <posx>0</posx>
               <posy>710</posy>
+              <width>159</width>
+              <height>27</height>
               <colordiffuse>Orange</colordiffuse>
               <texture>$INFO[Player.StarRating]</texture>
             </control>
